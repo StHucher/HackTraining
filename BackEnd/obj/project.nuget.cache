@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yrm6mv7paADQpbnGr1WM+SYSJyoFapMoH6bPimnqQYV7BNGzSRAcR1bxj/MyJcdv4wD9uKwqf7lUGAqNw47zjQ==",
+  "success": true,
+  "projectFilePath": "/Users/salt-dev/databaseWeek/HackTraining/BackEnd/BackEnd.csproj",
+  "expectedPackageFiles": [
+    "/Users/salt-dev/.nuget/packages/microsoft.aspnetcore.openapi/7.0.1/microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
