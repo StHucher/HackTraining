@@ -28,7 +28,7 @@ namespace BackEnd.Controllers
           {
               return NotFound();
           }
-            return await _context.Customer.ToListAsync();
+            return await _context.Customer.Include(a => a.AddressList).ToListAsync();
         }
 
         // GET: api/Customers/5

@@ -10,5 +10,4 @@ public class Address
     public string? City { get; set; }
     public string? Country { get; set; }
     public bool Primary { get; set; }
-    // public virtual List<Customer>? Customer { get; set; }
 }
