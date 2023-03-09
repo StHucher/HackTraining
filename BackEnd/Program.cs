@@ -13,11 +13,26 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    SeedDataBogus.Initialize(services);
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+   
+    app.UseCors(policy =>
+      {
+          policy.AllowAnyOrigin()
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();  //set the allowed origin
+      });
+
+
 }
 
 app.UseHttpsRedirection();

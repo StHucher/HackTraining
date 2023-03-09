@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "x94rC0jpfT8jT9ebtKEkWWkq6d6HhlhEO4w30LN1hVxdbrIJvOH4FNt0xV1PSOMPK3gNM4orDIyLIdz43fmzLQ==",
+  "dgSpecHash": "pjA8xNMuGnfxkMAXtRwB0rcWlC2XTcsIS4BBu19SLbYaflhdtaf9ql01G6mvc+1voVN8ThlFKh9/q4HTw+Oo1w==",
   "success": true,
   "projectFilePath": "/Users/salt-dev/databaseWeek/HackTraining/BackEnd/BackEnd.csproj",
   "expectedPackageFiles": [
     "/Users/salt-dev/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/salt-dev/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/bogus/34.0.2/bogus.34.0.2.nupkg.sha512",
     "/Users/salt-dev/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/salt-dev/.nuget/packages/microsoft.aspnetcore.openapi/7.0.1/microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
     "/Users/salt-dev/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.11/microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",

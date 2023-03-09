@@ -274,3 +274,4 @@
 /Users/salt-dev/databaseWeek/HackTraining/BackEnd/obj/Debug/net7.0/BackEnd.pdb
 /Users/salt-dev/databaseWeek/HackTraining/BackEnd/obj/Debug/net7.0/BackEnd.genruntimeconfig.cache
 /Users/salt-dev/databaseWeek/HackTraining/BackEnd/obj/Debug/net7.0/ref/BackEnd.dll
+/Users/salt-dev/databaseWeek/HackTraining/BackEnd/bin/Debug/net7.0/Bogus.dll
