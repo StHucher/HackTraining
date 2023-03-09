@@ -16,7 +16,21 @@ function App() {
   useEffect(() => {
     getData();
   }, []);
-  return <div className="App"></div>;
+  return (
+  <div className="App">
+
+{
+  customers.map(x => {
+   return(
+    <>
+    {x.name}
+
+    </>
+   );
+  })
+}
+
+  </div>);
 }
 
 export default App;
