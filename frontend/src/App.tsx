@@ -1,36 +1,25 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import { ICustomers } from "./Types/TypeInterfaces";
-import { getCustomers } from "./Api";
+import Customers from "./Components/Customers";
+import Navbar from "./Components/Navbar";
+
 
 function App() {
-  const [customers, SetCustomers] = useState<ICustomers[]>([]);
 
-  const getData = async () => {
-    const customersFromApi = await getCustomers();
-    SetCustomers(customersFromApi)
-    console.log({ customersFromApi });
-  };
-
-  useEffect(() => {
-    getData();
-  }, []);
   return (
-  <div className="App">
+    <div className="App">
 
-{
-  customers.map(x => {
-   return(
-    <>
-    {x.name}
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Customers />}></Route>
 
-    </>
-   );
-  })
-}
 
-  </div>);
+        </Routes>
+
+      </Router>
+
+    </div>);
 }
 
 export default App;

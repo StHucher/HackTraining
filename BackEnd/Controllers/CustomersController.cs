@@ -39,7 +39,7 @@ namespace BackEnd.Controllers
           {
               return NotFound();
           }
-            var customer = await _context.Customer.FindAsync(id);
+            var customer = await _context.Customer.Include(x => x.AddressList).FirstOrDefaultAsync(m => m.Id == id);
 
             if (customer == null)
             {
